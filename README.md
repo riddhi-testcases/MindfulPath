@@ -42,12 +42,14 @@ npm run dev
 
 ## 🧱 Project Structure
 
+```bash
 mindfulpath/
 ├── app/          # App routes (dashboard, journal, auth, pricing)
 ├── components/   # Reusable UI components
 ├── hooks/        # Custom React hooks
 ├── lib/          # Utility functions
 └── types/        # Type definitions
+```
 
 ## 🧪 Redis Schema (Example)
 
