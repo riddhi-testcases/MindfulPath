@@ -53,6 +53,7 @@ mindfulpath/
 
 ## 🧪 Redis Schema (Example)
 
+```bash
 journal-entries-${userId}: [
   {
     id, userId, title, content,
@@ -60,6 +61,7 @@ journal-entries-${userId}: [
     // ...
   }
 ]
+```
 
 ## 📦 Deployment
 
