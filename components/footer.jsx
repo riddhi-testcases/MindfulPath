@@ -80,30 +80,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Support & Contact */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-gray-900">Support</h3>
-            <div className="space-y-2">
-              <Link
-                href="/help"
-                className="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-300"
-              >
-                Help Center
-              </Link>
-              <Link
-                href="/contact"
-                className="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-300"
-              >
-                Location
-              </Link>
-              <div className="flex items-center gap-2 text-sm text-gray-600">
-                <MapPin className="w-4 h-4" />
-                <span>Kolkat, West Bengal, India</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Bottom Section */}
         <div className="border-t border-gray-200 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
@@ -120,12 +96,6 @@ export function Footer() {
               . All rights reserved.
             </div>
             <div className="flex items-center gap-6 text-sm text-gray-600">
-              <Link href="/privacy" className="hover:text-emerald-600 transition-colors duration-300">
-                Privacy
-              </Link>
-              <Link href="/terms" className="hover:text-emerald-600 transition-colors duration-300">
-                Terms
-              </Link>
               <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">🇮🇳 Made in India</span>
             </div>
           </div>
