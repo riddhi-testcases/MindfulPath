@@ -1,6 +1,5 @@
 # MindfulPath
-
-- AI-powered journaling, goal tracking & wellness analytics**
+AI-powered journaling, goal tracking & wellness analytics
 
 **MindfulPath** is a modern personal growth platform built with **Next.js 15**, offering intelligent journaling, emotional tracking, and community features—all designed with affordability and local payments in mind. 
 
@@ -21,7 +20,7 @@
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 15, React 18, Tailwind CSS, shadcn/ui  
 - **Backend**: API Routes, Server Actions, Upstash Redis  
@@ -30,7 +29,7 @@
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```bash
 mindfulpath/
@@ -41,7 +40,7 @@ mindfulpath/
 └── types/        # Type definitions
 ```
 
-## 🧪 Redis Schema (Example)
+## Redis Schema (Example)
 
 ```bash
 journal-entries-${userId}: [
