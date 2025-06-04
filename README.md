@@ -1,21 +1,23 @@
-# 🧘‍♀️ MindfulPath
+# MindfulPath
 
-> **AI-powered journaling, goal tracking & wellness analytics**
+- AI-powered journaling, goal tracking & wellness analytics**
 
-**MindfulPath** is a modern personal growth platform built with **Next.js 15**, offering intelligent journaling, emotional tracking, and community features—all designed with affordability and local payments in mind.
+**MindfulPath** is a modern personal growth platform built with **Next.js 15**, offering intelligent journaling, emotional tracking, and community features—all designed with affordability and local payments in mind. 
+
+> Note: The pricing section is included for realism and design purposes only — the product is completely free to use ofcourse.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📝 **Smart Journaling** with AI insights  
-- 📈 **Mood, Energy & Motivation** tracking with Recharts  
-- 🎯 **Goal Milestones** and life area balance tracking  
-- 🤝 **Growth Community** with sharing & privacy controls  
-- 🔐 **Secure Auth** (email-based) with Redis-powered storage  
-- 💡 **AI Pattern Recognition** for emotional trends  
-- 📊 **Advanced Analytics** & gamified streaks  
-- 📱 **Responsive UI** with dark mode & animations  
+- **Smart Journaling** with AI insights  
+- **Mood, Energy & Motivation** tracking with Recharts  
+- **Goal Milestones** and life area balance tracking  
+- **Growth Community** with sharing & privacy controls  
+- **Secure Auth** (email-based) with Redis-powered storage  
+- **AI Pattern Recognition** for emotional trends  
+- **Advanced Analytics** & gamified streaks  
+- **Responsive UI** with dark mode & animations  
 
 ---
 
@@ -26,18 +28,6 @@
 - **Charts**: Recharts, custom visualizations  
 - **UX**: Mobile-first, glass morphism, smooth animations  
 
----
-
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/yourusername/mindfulpath.git
-cd mindfulpath
-npm install
-cp .env.example .env.local
-# Add your Redis credentials
-npm run dev
-```
 ---
 
 ## 🧱 Project Structure
@@ -63,9 +53,7 @@ journal-entries-${userId}: [
 ]
 ```
 
-## 📦 Deployment
+## Deployment
 
 Done on Vercel (Recommended) — GitHub auto-deploy
-
-🛠️ Also works with: Netlify, Railway, DigitalOcean
 
