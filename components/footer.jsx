@@ -20,12 +20,12 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm text-gray-600 max-w-xs">
-              Transform your life with AI-powered insights, goal tracking, and mindful journaling. Made by Riddhi Chakraboty for the
+              Transform your life with AI-powered insights, goal tracking, and mindful journaling. Made in India for the
               world.
             </p>
             <div className="flex items-center gap-3">
               <Link
-                href="https://github.com/riddhi-testcases"
+                href="https://github.com/riddhichakraborty"
                 className="text-gray-400 hover:text-emerald-600 transition-colors duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,7 +33,15 @@ export function Footer() {
                 <Github className="w-5 h-5" />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/riddhi-chakraborty-334069279"
+                href="https://twitter.com/riddhichakraborty"
+                className="text-gray-400 hover:text-emerald-600 transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Twitter className="w-5 h-5" />
+              </Link>
+              <Link
+                href="https://linkedin.com/in/riddhichakraborty"
                 className="text-gray-400 hover:text-emerald-600 transition-colors duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -41,7 +49,7 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </Link>
               <Link
-                href="mailto:chakrabortyriddhi88@gmail.com"
+                href="mailto:riddhi@mindfulpath.com"
                 className="text-gray-400 hover:text-emerald-600 transition-colors duration-300"
               >
                 <Mail className="w-5 h-5" />
@@ -80,13 +88,72 @@ export function Footer() {
             </div>
           </div>
 
+          {/* Company Links */}
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900">Company</h3>
+            <div className="space-y-2">
+              <Link
+                href="/about"
+                className="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-300"
+              >
+                About Us
+              </Link>
+              <Link
+                href="/privacy"
+                className="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-300"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms"
+                className="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-300"
+              >
+                Terms of Service
+              </Link>
+              <Link
+                href="/refund"
+                className="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-300"
+              >
+                Refund Policy
+              </Link>
+            </div>
+          </div>
+
+          {/* Support & Contact */}
+          <div className="space-y-4">
+            <h3 className="font-semibold text-gray-900">Support</h3>
+            <div className="space-y-2">
+              <Link
+                href="/help"
+                className="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-300"
+              >
+                Help Center
+              </Link>
+              <Link
+                href="/contact"
+                className="block text-sm text-gray-600 hover:text-emerald-600 transition-colors duration-300"
+              >
+                Contact Support
+              </Link>
+              <div className="flex items-center gap-2 text-sm text-gray-600">
+                <MapPin className="w-4 h-4" />
+                <span>Mumbai, India</span>
+              </div>
+              <div className="flex items-center gap-2 text-sm text-gray-600">
+                <Phone className="w-4 h-4" />
+                <span>+91 98765 43210</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Bottom Section */}
         <div className="border-t border-gray-200 mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm text-gray-600 text-center md:text-left">
               © 2025 MindfulPath, Inc. Made by{" "}
               <Link
-                href="https://github.com/riddhi-testcases"
+                href="https://github.com/riddhichakraborty"
                 className="font-medium text-emerald-600 hover:text-emerald-700 transition-colors duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -94,6 +161,18 @@ export function Footer() {
                 Riddhi Chakraborty
               </Link>
               . All rights reserved.
+            </div>
+            <div className="flex items-center gap-6 text-sm text-gray-600">
+              <Link href="/privacy" className="hover:text-emerald-600 transition-colors duration-300">
+                Privacy
+              </Link>
+              <Link href="/terms" className="hover:text-emerald-600 transition-colors duration-300">
+                Terms
+              </Link>
+              <Link href="/refund" className="hover:text-emerald-600 transition-colors duration-300">
+                Refunds
+              </Link>
+              <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">🇮🇳 Made in India</span>
             </div>
           </div>
         </div>
