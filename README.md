@@ -2,7 +2,7 @@
 
 **MindfulPath** is a modern personal growth platform built with **Next.js 15**, offering intelligent journaling, emotional tracking, goal entries and wellness analytics.
 
-> Note: The pricing section is included for realism and design purposes only — the product is completely free to use ofcourse.
+> Note: The pricing section is included for realism and design purposes only.
 
 ---
 
