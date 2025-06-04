@@ -120,8 +120,7 @@ export default function AuthPage() {
               </h2>
 
               <p className="text-lg text-gray-600 max-w-md mx-auto lg:mx-0">
-                Join thousands of people on their personal growth journey. Track emotions, achieve goals, and unlock
-                your potential with AI-powered insights.
+                Embark on a smarter journey to personal growth — evolve, achieve, thrive.
               </p>
             </div>
 
@@ -143,7 +142,7 @@ export default function AuthPage() {
             {/* Call to Action */}
             <div className="text-center lg:text-left pt-4">
               <p className="text-sm text-gray-600">
-                Start your personal growth journey today with AI-powered insights and mindful journaling.
+                Start your personal growth journey today with AI-powered insights and mindful journaling. Unlock your potential with AI-driven insights, emotion tracking, and goal-crushing tools — all in one place.
               </p>
             </div>
           </div>
