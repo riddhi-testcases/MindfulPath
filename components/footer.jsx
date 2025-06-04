@@ -99,9 +99,6 @@ export function Footer() {
                 <MapPin className="w-4 h-4" />
                 <span>Kolkata, West Bengal, India</span>
               </div>
-              <div className="flex items-center gap-2 text-sm text-gray-600">
-                <Phone className="w-4 h-4" />
-              </div>
             </div>
           </div>
         </div>
