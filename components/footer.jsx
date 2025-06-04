@@ -95,9 +95,6 @@ export function Footer() {
               </Link>
               . All rights reserved.
             </div>
-            <div className="flex items-center gap-6 text-sm text-gray-600">
-              <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">🇮🇳 Made in India</span>
-            </div>
           </div>
         </div>
       </div>
